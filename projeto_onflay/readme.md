@@ -25,18 +25,10 @@ Antes de começar, certifique-se de ter instalado:
 ```bash
 git clone https://github.com/SEU_USUARIO/projeto_onfly.git
 cd projeto_onfly
-Configure o arquivo .env (opcional) caso queira sobrescrever variáveis padrão:
 
-text
-Copiar código
-# Exemplo de variáveis de ambiente
-DB_HOST=postgres
-DB_PORT=5432
-DB_USER=n8n
-DB_PASSWORD=n8npassword
-DB_NAME=n8n
-Executando o serviço localmente com Docker
-Subir os containers do Docker:
+
+
+
 
 
 docker-compose up -d
@@ -91,6 +83,7 @@ Para qualquer dúvida ou suporte, entre em contato com a equipe pelo e-mail do p
 
 Autor: Davi Nunes carvalho
 Data: 2025
+
 
 
 
