@@ -1,3 +1,6 @@
+<img width="1919" height="977" alt="Captura de tela 2025-09-24 194514" src="https://github.com/user-attachments/assets/19d2a463-7ac6-4319-9d6d-46d5c515cb40" />
+
+
 # Projeto OnFly
 
 Este é o repositório do projeto **OnFly**, desenvolvido usando Node.js, n8n e Docker.  
