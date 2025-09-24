@@ -1,0 +1,26 @@
+{
+  "name": "n8n-random-node",
+  "version": "1.0.0",
+  "description": "Custom node para gerar números aleatórios com Random.org",
+  "main": "dist/Random.node.js",
+  "scripts": {
+    "build": "tsc", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "n8n",
+    "custom",
+    "node",
+    "random"
+  ],
+  "dependencies": {
+    "node-fetch": "^3.3.2" 
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "n8n-workflow": "^1.40.1",
+    "typescript": "^5.4.5"
+  },
+  "author": "",
+  "license": "ISC"
+}

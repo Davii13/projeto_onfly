@@ -1,0 +1,13 @@
+# Ignorar node_modules
+node_development/node_modules/
+
+# Ignorar logs
+*.log
+
+# Ignorar arquivos temporários do sistema
+*.tmp
+*.swp
+.DS_Store
+
+# Ignorar n8n data
+n8n_data/
