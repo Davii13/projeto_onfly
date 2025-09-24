@@ -23,5 +23,78 @@ Antes de começar, certifique-se de ter instalado:
 1. Clone o repositório:
 
 ```bash
+Executando o serviço localmente com Docker
+
+Subir os containers do Docker:
+
+docker-compose up -d
+
+
+Verificar se os containers estão rodando:
+
+docker-compose ps
+
+
+Acessar o serviço:
+
+n8n: http://localhost:5678
+
+Instalar dependências (opcional)
+
+Se você for rodar scripts Node.js fora do Docker:
+
+cd node_development
+npm install
+
+Configuração do ambiente
+
+Banco de dados PostgreSQL já está configurado via Docker Compose.
+
+Caminhos de armazenamento e dados do n8n estão mapeados para:
+
+n8n_data/
+
+
+Variáveis de ambiente podem ser definidas no .env ou no próprio Docker Compose.
+
+Executando os testes
+
+Se houver testes configurados no projeto, execute:
+
+npm test
+
+
+ou, se usando Docker:
+
+docker exec -it <nome_do_container> npm test
+
+Estrutura do projeto
+projeto_onfly/
+├── node_development/      # Scripts e nós customizados
+├── n8n_data/              # Dados e logs do n8n
+├── docker-compose.yml     # Configuração dos containers
+├── .gitignore
+└── README.md
+
+Informações adicionais
+
+Todos os arquivos binários e dependências externas estão ignorados via .gitignore.
+
+Evite commitar node_modules ou dados sensíveis.
+
+Desenvolvido usando Windows/Ubuntu com Docker e Git Bash.
+
+Para qualquer dúvida ou suporte, entre em contato com a equipe pelo e-mail do projeto.
+
+Autor: Seu Nome
+Data: 2025
+
+
+---
+
+Se você quiser, posso também **adaptar o README com instruções específicas do seu nó customizado `RandomGenerator` no n8n**, para que qualquer pessoa que clonar o projeto consiga rodar exatamente como você tem localmente.  
+
+Quer que eu faça essa versão detalhada?
 git clone https://github.com/SEU_USUARIO/projeto_onfly.git
 cd projeto_onfly
+
